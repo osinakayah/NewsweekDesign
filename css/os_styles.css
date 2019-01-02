@@ -1,0 +1,203 @@
+.header-section {
+    padding-top: 3rem;
+    background-color: #dd4b45;
+    padding-bottom: 1rem;
+    color: white;
+}
+
+.block-title {
+    color: rgba(3,3,3,.4);
+    font: bold 16px/16px "Roboto Condensed",sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 11px;
+}
+
+/*div.nav-section ul.nav-section-list li::after{*/
+    /*padding-right: 1rem;*/
+    /*content: "|";*/
+    /*color: #d9d9d9; !* or whatever color you prefer *!*/
+/*}*/
+div.nav-section ul.nav-section-list li.nav-section-list-item{
+    display: inline-block;
+    list-style: none;
+    border-right-color: #d9d9d9;
+    border-right-width: 1px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-right-style: solid;
+}
+
+div.nav-section ul.nav-section-list {
+    padding-right: 0px;
+    padding-left: 0px;
+    color: black;
+    margin-top: 1rem;
+    font-size: 21px;
+    line-height: 24px;
+    font-weight: 700;
+    font-family: "Roboto Condensed",sans-serif;
+}
+
+body {
+    background-color: #f4f5f6;
+
+}
+
+div.container {
+    background-color: white;
+}
+svg#Layer_1{
+    fill: white;
+}
+
+div.content-section div.left-content {
+
+}
+
+div.content-section div.left-content div.article {
+
+}
+
+div.content-section div.left-content div.article div.summary{
+    line-height: 1.2;
+}
+
+div.content-section div.left-content div.article h3 {
+    font-size: 24px;
+    line-height: 24px;
+    font-family: "Roboto Condensed",sans-serif;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #000;
+}
+div.content-section div.center-content h2 {
+    margin-top: 1rem;
+    font-size: 24px;
+    line-height: 24px;
+    font-family: "Roboto Condensed",sans-serif;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #000;
+}
+div.content-section div.center-content ul {
+    padding: 0;
+}
+div.content-section div.center-content div.featured-articles  ul.featured-article-item li.row {
+    border-top-color: #d9d9d9;
+    border-top-style: solid;
+    border-top-width: 1px;
+
+    border-bottom-color: #d9d9d9;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+
+    padding-top: 0.5rem;
+}
+div.content-section div.center-content div.featured-articles  ul.featured-article-item li.row div.info h6 {
+    font-weight: bold;
+}
+div.content-section div.center-content div.featured-articles  ul.featured-article-item li.row div.info p.summary{
+    line-height: 1;
+}
+div.content-section div.center-content div.featured-articles  ul.featured-article-item{
+    padding: 0;
+    margin: 0;
+
+}
+div.content-section div.center-content ul.related li{
+    border-top-color: #d9d9d9;
+    border-top-style: solid;
+    border-top-width: 1px;
+
+    border-bottom-color: #d9d9d9;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+    list-style: none;
+    margin-top: 1rem;
+    font-size: 19px;
+    line-height: 24px;
+    font-family: "Roboto Condensed",sans-serif;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #000;
+}
+
+div.content-section div.center-content div.article div.summary{
+    line-height: 1.2;
+}
+
+.flex-xs {
+    display: flex;
+    flex-direction: row;
+}
+
+div.content-section div.right-content ul {
+    margin: 0;
+    padding: 0;
+}
+div.content-section div.right-content ul li {
+    list-style: none;
+    border-bottom-color: #ddd;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+div.content-section div.right-content ul li.row div.info {
+    padding: 0;
+}
+
+div.content-section div.right-content ul li.row div.info h6 {
+    font-weight: bold;
+}
+
+div.content-section div.right-content ul li.row div.info div.byline{
+    font-size: 14px;
+    line-height: 21px;
+    color: #555;
+    text-transform: uppercase;
+    margin-top: 4px;
+    font-weight: 400;
+}
+div.sign-up-newsletter div button {
+    background-color: #666666;
+    color: white;
+}
+
+div.sign-up-newsletter {
+    max-width: 300px;
+    margin: 0 auto 30px;
+    border: 1px solid #e5e5e5;
+    background-color: #f4f5f6;
+    padding: 20px;
+}
+div.sign-up-newsletter div.news-letter-title i {
+    background-color: #dd4b45;
+    color: white;
+    padding: 0.5rem;
+}
+div.sign-up-newsletter div.news-letter-title span {
+    font-weight: bold;
+}
+
+div.content-second-section-article {
+
+}
+
+.btn-custom-red{
+    border-radius: 0px;
+    background-color: #dd4b45;
+    color: white;
+}
+
+.btn-custom-white {
+    border-radius: 0px;
+    color: #dd4b45;
+    background-color: white;
+    border: none;
+}
